@@ -1,0 +1,156 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: #eee3e3;
+}
+
+header {
+    background-color: rgb(219, 219, 29);
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+header img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links {
+        display: none;
+        list-style: none; /* Remove bullets from navigation links */
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+}
+
+/* Additional CSS for show class */
+.nav-links.show {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.hamburger {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #e9dbdb;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+
+button.hamburger,
+a.hamburger {
+    text-decoration: none;
+}
+
+/* Responsive Navigation */
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+main {
+    padding: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.course-work, .location, .certificate {
+    background-color: #285cb4;
+    color: #dfd0d0;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.location img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 8px;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+    background-color: rgb(4, 4, 26);
+    color: #ddd0d0;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.filter-buttons button:hover {
+    background-color: #eee5e5;
+}
+
+/* Styling for Completed and Incomplete Courses */
+.completed {
+    background-color: #111010; /* Completed course background */
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+.incomplete {
+    background-color: #ccc; /* Incomplete course background */
+    color: #000;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #32527b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 8px;
+}
