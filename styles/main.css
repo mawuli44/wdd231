@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: rgb(219, 219, 29);
+    background-color: rgb(173, 173, 88);
     color: black;
     padding: 1rem;
     width: 100%;
@@ -95,7 +95,7 @@ main {
 }
 
 .course-work, .location, .certificate {
-    background-color: #285cb4;
+    background-color: #3f5c8f;
     color: #dfd0d0;
     padding: 1rem;
     border-radius: 8px;
