@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -18,7 +20,7 @@ body {
 }
 
 header {
-    background-color: rgb(173, 173, 88);
+    background-color: rgb(189, 189, 143);
     color: black;
     padding: 1rem;
     width: 100%;
@@ -67,6 +69,7 @@ header img {
     text-decoration: none;
     margin-left: auto;
     justify-content: space-between;
+    d
 }
 
 
