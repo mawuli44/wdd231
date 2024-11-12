@@ -88,6 +88,17 @@ a.hamburger {
         gap: 1rem;
     }
 
+    .nav-links a:hover {
+        color: rgb(129, 108, 45);
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a.active {
+        font-weight: bold;
+        border-bottom: 2px solid #e4dece;
+    }
+    
+
     .hamburger {
         display: none;
     }
@@ -96,7 +107,7 @@ a.hamburger {
 main {
     padding: 1rem;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
     text-align: center;
 }
 
