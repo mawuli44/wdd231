@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Tech Solutions",
+        "address": "123 Main St, Timbuktu",
+        "phone": "555-123-4567",
+        "website": "https://techsolutions.com",
+        "image": "images/techsolutions.png",
+        "membership": 3
+    },
+    {
+        "name": "Green Landscapes",
+        "address": "456 Oak Ave, Timbuktu",
+        "phone": "555-987-6543",
+        "website": "https://greenlandscapes.com",
+        "image": "images/greenlandscapes.png",
+        "membership": 2
+    },
+    {
+        "name": "Foodie Paradise",
+        "address": "789 Pine Rd, Timbuktu",
+        "phone": "555-111-2222",
+        "website": "https://foodieparadise.com",
+        "image": "images/foodieparadise.png",
+        "membership": 1
+    },
+    {
+        "name": "Artisan Crafts",
+        "address": "321 Elm St, Timbuktu",
+        "phone": "555-222-3333",
+        "website": "https://artisancrafts.com",
+        "image": "images/artisancrafts.png",
+        "membership": 1
+    },
+    {
+        "name": "Eco Energy",
+        "address": "654 Spruce St, Timbuktu",
+        "phone": "555-444-5555",
+        "website": "https://ecoenergy.com",
+        "image": "images/ecoenergy.png",
+        "membership": 2
+    },
+    {
+        "name": "Bright Minds Academy",
+        "address": "987 Cedar Ln, Timbuktu",
+        "phone": "555-666-7777",
+        "website": "https://brightminds.com",
+        "image": "images/brightminds.png",
+        "membership": 3
+    },
+    {
+        "name": "Wellness Spa",
+        "address": "111 Maple Dr, Timbuktu",
+        "phone": "555-888-9999",
+        "website": "https://wellnessspa.com",
+        "image": "images/wellnessspa.png",
+        "membership": 3
+    }
+]
