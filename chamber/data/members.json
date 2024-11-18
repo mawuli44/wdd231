@@ -1,58 +1,58 @@
 [
     {
         "name": "Tech Solutions",
-        "address": "123 Main St, Timbuktu",
-        "phone": "555-123-4567",
+        "address": "5630 Kirkwood Hwy, Orchard Commons Business Center, Wilmington, DE 19808, United States",
+        "phone": "(302) 656-8324",
         "website": "https://techsolutions.com",
         "image": "images/techsolutions.png",
         "membership": 3
     },
     {
-        "name": "Green Landscapes",
-        "address": "456 Oak Ave, Timbuktu",
+        "name": "Margins group",
+        "address": "5th Floor, The Octagon, Accra - Ghana.",
         "phone": "555-987-6543",
-        "website": "https://greenlandscapes.com",
-        "image": "images/greenlandscapes.png",
-        "membership": 2
+        "website": "https://marginsgroup.com",
+        "image": "images/margins.png",
+        "membership": 4
     },
     {
-        "name": "Foodie Paradise",
-        "address": "789 Pine Rd, Timbuktu",
-        "phone": "555-111-2222",
-        "website": "https://foodieparadise.com",
-        "image": "images/foodieparadise.png",
+        "name": "Petra",
+        "address": "Nexus Office 113 Airport West Dzorwulu, Accra - Ghana",
+        "phone": "+233(0)242435037",
+        "website": "https://petraonline.com/",
+        "image": "images/petra.png",
         "membership": 1
     },
     {
-        "name": "Artisan Crafts",
-        "address": "321 Elm St, Timbuktu",
-        "phone": "555-222-3333",
-        "website": "https://artisancrafts.com",
-        "image": "images/artisancrafts.png",
+        "name": "Telecel Ghana",
+        "address": "Airport Bypass Road, Accra - Ghana",
+        "phone": "030 233 4040",
+        "website": "https://telecel.com.gh/",
+        "image": "images/telecel.png",
         "membership": 1
     },
     {
-        "name": "Eco Energy",
-        "address": "654 Spruce St, Timbuktu",
-        "phone": "555-444-5555",
-        "website": "https://ecoenergy.com",
-        "image": "images/ecoenergy.png",
-        "membership": 2
+        "name": "Unilever",
+        "address": "Heavy Industrial Area, Tema",
+        "phone": "+234-(0)-800-864-53837",
+        "website": "https://www.unilever-ewa.com",
+        "image": "images/unilever.png",
+        "membership": 7
     },
     {
         "name": "Bright Minds Academy",
-        "address": "987 Cedar Ln, Timbuktu",
-        "phone": "555-666-7777",
+        "address": "Corporate offic: C-13,2nd floor, Above Karnataka Bank, Vaishali marg",
+        "phone": "+91-9549331234",
         "website": "https://brightminds.com",
-        "image": "images/brightminds.png",
+        "image": "images/bright.png",
         "membership": 3
     },
     {
-        "name": "Wellness Spa",
-        "address": "111 Maple Dr, Timbuktu",
-        "phone": "555-888-9999",
-        "website": "https://wellnessspa.com",
-        "image": "images/wellnessspa.png",
-        "membership": 3
+        "name": "TotalEnergies Ghana ",
+        "address": "TotalEnergies House, 25 Liberia Road, Accra ",
+        "phone": "+233 0302 611530/ +233 0302 611555-6 ",
+        "website": "https://totalenergies.com.gh",
+        "image": "images/total.png",
+        "membership": 1
     }
 ]
