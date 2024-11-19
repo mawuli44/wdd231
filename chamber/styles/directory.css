@@ -8,7 +8,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #333;
+    background-color: #3f3c3c;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -18,7 +18,7 @@ nav ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
-    background-color: rgb(144, 236, 236);
+    background-color: rgb(195, 238, 238);
     overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ nav a {
     text-decoration:none;
     display: block;
     padding: 30px;
-    color: rgb(216, 132, 132);
+    color: rgb(24, 3, 3);
     text-align: center;
 }
 
