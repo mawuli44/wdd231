@@ -25,9 +25,10 @@ nav ul {
 nav a {
     text-decoration:none;
     display: block;
-    padding: 30px;
+    padding: 20px;
     color: rgb(24, 3, 3);
     text-align: center;
+    gap: 3rem
 }
 
 nav li {
