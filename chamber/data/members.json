@@ -1,10 +1,10 @@
 [
     {
-        "name": "Tech Solutions",
-        "address": "5630 Kirkwood Hwy, Orchard Commons Business Center, Wilmington, DE 19808, United States",
-        "phone": "(302) 656-8324",
-        "website": "https://techsolutions.com",
-        "image": "images/techsolutions.png",
+        "name": "Done By Us",
+        "address": "Arts Centre on the John Evans Atta-Mills High Street, Accra Ghana",
+        "phone": "+233552490506 / +233548204551",
+        "website": "https://dbughana.com/",
+        "image": "images/donebyus.png",
         "membership": 3
     },
     {
@@ -40,12 +40,12 @@
         "membership": 7
     },
     {
-        "name": "Bright Minds Academy",
-        "address": "Corporate offic: C-13,2nd floor, Above Karnataka Bank, Vaishali marg",
-        "phone": "+91-9549331234",
-        "website": "https://brightminds.com",
-        "image": "images/bright.png",
-        "membership": 3
+        "name": "Ecobank Ghana",
+        "address": "HEAD OFFICE, LATERBIORKOSHI",
+        "phone": "+233 302 213 999",
+        "website": "https://https://ecobank.com/gh/personal-banking/",
+        "image": "images/ecobank.png",
+        "membership": 1
     },
     {
         "name": "TotalEnergies Ghana ",
