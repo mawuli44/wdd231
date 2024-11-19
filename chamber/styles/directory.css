@@ -14,6 +14,30 @@ header {
     text-align: center;
 }
 
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: rgb(144, 236, 236);
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration:none;
+    display: block;
+    padding: 20px;
+    color: rgb(216, 132, 132);
+    text-align: center;
+}
+
+nav li {
+    float: right;
+}
+
+.nav a:hover {
+background-color: #a14f4f;
+}
+
 header nav ul {
     list-style: none;
     padding: 0;
