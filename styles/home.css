@@ -39,6 +39,16 @@ header {
     text-decoration: none;
 }
 
+nav ul {
+    background-color: #bb9f51;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+nav li {
+    overflow: left;
+}
 header img {
     border-radius: 50%;
     width: 50px;
