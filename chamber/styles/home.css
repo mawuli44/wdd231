@@ -22,6 +22,7 @@ header {
     color: #fff;
     padding: 10px 20px;
     text-align: center;
+    position: relative;
 }
 
 
@@ -30,11 +31,15 @@ header h1 {
     font-size: 2.5rem;
 }
 
+nav {
+    position: relative;
+}
+
 nav ul {
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
     list-style: none;
-    padding: 0;
+    padding: 20px;
 }
 
 nav ul li {
@@ -111,7 +116,7 @@ footer {
     padding: 1rem;
     margin-bottom: 1rem;
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(157, 157, 167);
     border-radius: 8px;
 }
 
@@ -149,7 +154,7 @@ nav {
     display: none; /* Hidden by default for larger screens */
 }
 
-.nav-links {
+nav-links {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -157,11 +162,11 @@ nav {
     gap: 15px;
 }
 
-.nav-links li {
+nav-links li {
     margin: 0;
 }
 
-.nav-links a {
+nav-links a {
     color: white;
     text-decoration: none;
 }
@@ -170,10 +175,14 @@ nav {
     text-decoration: underline;
 }
 
+
 /* Responsive Hamburger Menu */
 @media (max-width: 768px) {
     .hamburger {
-        display: block;
+        display: block; /* Show hamburger menu on smaller screens */
+        position: absolute;
+        top: 10px;
+        right: 20px; /* Align in header */
     }
 
     .nav-links {
@@ -192,4 +201,30 @@ nav {
     .nav-links.show {
         display: flex; /* Show links when toggled */
     }
+}
+
+
+/* Ensure the body and HTML do not overflow */
+html, body {
+    width: 100%; /* Prevent horizontal overflow */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+/* Make all sections responsive */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Responsive width */
+}
+
+/* Images should fit within their container */
+img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
 }

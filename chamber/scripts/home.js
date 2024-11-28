@@ -95,15 +95,20 @@ document.addEventListener("DOMContentLoaded", () => {
     displayCurrentEvent(); // Display the current event
 });
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const hamburger = document.querySelector(".hamburger");
     const navLinks = document.querySelector(".nav-links");
 
-    // Toggle navigation links visibility
+    // Toggle navigation links
     hamburger.addEventListener("click", () => {
         navLinks.classList.toggle("show");
     });
+
+    // Footer Updates
+    const yearSpan = document.getElementById("year");
+    const lastModifiedSpan = document.getElementById("lastModified");
+    yearSpan.textContent = new Date().getFullYear();
+    lastModifiedSpan.textContent = document.lastModified;
 });
 
 
