@@ -93,7 +93,7 @@ section {
     padding: 20px;
     background: white;
     border-radius: 5px;
-    max-width: 800px;
+    max-width: 1500px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -172,7 +172,7 @@ nav-links a {
 }
 
 .nav-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -220,7 +220,7 @@ section {
     border-radius: 5px;
     max-width: 800px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 90%; /* Responsive width */
+    width: 100%; /* Responsive width */
 }
 
 /* Images should fit within their container */
