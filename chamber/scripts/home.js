@@ -111,5 +111,15 @@ document.addEventListener("DOMContentLoaded", () => {
     lastModifiedSpan.textContent = document.lastModified;
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    // Toggle navigation links
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+});
+
 
 
