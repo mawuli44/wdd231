@@ -77,14 +77,14 @@ nav ul li a:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e74c3c;
+    background-color: #d38077;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #c0392b;
+    background-color: #ca6d63;
 }
 
 /* Section Styling */
@@ -99,7 +99,7 @@ section {
 
 h2 {
     text-align: center;
-    color: #e74c3c;
+    color: #da867c;
 }
 
 /* Footer */
