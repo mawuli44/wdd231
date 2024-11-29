@@ -61,7 +61,7 @@ nav ul li a:hover {
     text-align: center;
     color: white;
     background: url('images/hero.webp') no-repeat center center/cover;
-    height: 100hv;
+    height: 100%;
 }
 
 .hero-text {
