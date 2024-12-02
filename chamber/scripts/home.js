@@ -34,14 +34,14 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Display Weather Data
+    // weather display
     function displayWeather(data) {
         const today = data.list[0];
-        const forecast = data.list.slice(1, 4); // 3-Day Forecast
-
+        const forecast = data.list.slice(1, 4); // Get next 3 forecasts
+    
         weatherContainer.innerHTML = `
             <p><strong>Current Temperature:</strong> ${Math.round(today.main.temp)}°C</p>
-            <p><strong>Weather:</strong> ${capitalizeWords(today.weather[0].description)}</p>
+            <p><strong>Condition:</strong> ${capitalizeWords(today.weather[0].description)}</p>
             <h3>3-Day Forecast</h3>
             <ul>
                 ${forecast
@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </ul>
         `;
     }
+    
 
     // Fetch Spotlight Data
     async function fetchSpotlights() {
@@ -120,6 +121,3 @@ document.addEventListener("DOMContentLoaded", () => {
         navLinks.classList.toggle("show");
     });
 });
-
-
-
