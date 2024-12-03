@@ -1,211 +1,203 @@
 /* General Styling */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  header {
-    background: rgb(54, 53, 53);
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 10px 0 0;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  nav ul li a.active {
-    text-decoration: underline;
-  }
-  
-  /* Membership Form */
-  .membership-form {
-    background: #f9f9f9;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 700px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  fieldset {
-    border: none;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .submit-btn {
-    background: #67a069;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .submit-btn:hover {
-    background: #688f6a;
-  }
-  
-  /* Membership Levels */
-  .membership-levels {
-    margin: 20px auto;
-    max-width: 900px;
-    text-align: center;
-  }
-  
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    flex: 1 1 calc(25% - 20px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  button {
-    background: #6d9b6f;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  button:hover {
-    background: #629264;
-  }
-  
-  /* Modals */
-  .modal {
-    padding: 20px;
-    max-width: 400px;
-    margin: auto;
-    border: none;
-    border-radius: 8px;
-    text-align: center;
-  }
-  
-  .close-modal {
-    background: #f44336;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .close-modal:hover {
-    background: #e53935;
-  }
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
 
-  .thank-you-section {
-    background: #f9f9f9;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
+header {
+  background: #2c2c2c; /* Darker background for better text contrast */
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
 
-  .thank-you-section h2 {
-    color: #7e8b7e;
-    font-size: 2rem;
-    margin-bottom: 15px;
-  }
+header h1 {
+  margin: 0;
+}
 
-  .thank-you-section p {
-    font-size: 1.1rem;
-    margin: 10px 0 20px;
-    color: rgb(49, 51, 49);
-  }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0 0;
+}
 
-  .submitted-data {
-    text-align: left;
-    margin: 20px auto;
-    max-width: 600px;
-    padding: 15px;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+nav ul li {
+  margin: 0 15px;
+}
 
-  .submitted-data p {
-    margin: 10px 0;
-    font-size: 1rem;
-  }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  .submitted-data strong {
-    color: #333;
-  }
+nav ul li a.active {
+  text-decoration: underline;
+}
 
-  .submit-btn {
-    display: inline-block;
-    background: #639464;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    margin-top: 20px;
-    transition: background 0.3s;
-  }
+/* Membership Form */
+.membership-form {
+  background: #f0f0f0; /* Softer gray for readability */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  .submit-btn:hover {
-    background: #76af79;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #1a202c; /* Dark footer for contrast */
-    color: #ffffff;
-    margin-top: 20px;
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #2c2c2c; /* Ensure strong contrast with background */
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border: 1px solid #bbb; /* Slightly darker border for contrast */
+  border-radius: 4px;
+  background: white;
+}
+
+.submit-btn {
+  background: #467a46; /* Dark green for better contrast */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background: #356235;
+}
+
+/* Membership Levels */
+.membership-levels {
+  margin: 20px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1 1 calc(25% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: #467a46; /* Match hover color with the theme */
+}
+
+button {
+  background: #4c8c4c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3c6e3c;
+}
+
+/* Modals */
+.modal {
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background: white; /* Ensure high contrast for modal content */
+}
+
+.close-modal {
+  background: #e64545; /* Darker red for better contrast */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-modal:hover {
+  background: #c83737;
+}
+
+/* Thank You Section */
+.thank-you-section {
+  background: #ffffff; /* Ensure good readability */
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.thank-you-section h2 {
+  color: #2f4f2f; /* Dark green for better contrast */
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.thank-you-section p {
+  font-size: 1.1rem;
+  margin: 10px 0 20px;
+  color: #444; /* Dark text for readability */
+}
+
+.submitted-data {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submitted-data p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #2c2c2c; /* High contrast text */
+}
+
+.submitted-data strong {
+  color: #1a1a1a; /* Even darker for strong emphasis */
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #121212; /* Darker footer background */
+  color: #e0e0e0; /* Light gray for contrast */
+  margin-top: 20px;
 }
