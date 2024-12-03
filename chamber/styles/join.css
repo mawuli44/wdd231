@@ -7,7 +7,7 @@ body {
   }
   
   header {
-    background: #4CAF50;
+    background: rgb(54, 53, 53);
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -143,6 +143,63 @@ body {
   
   .close-modal:hover {
     background: #e53935;
+  }
+
+  .thank-you-section {
+    background: #f9f9f9;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .thank-you-section h2 {
+    color: #7e8b7e;
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .thank-you-section p {
+    font-size: 1.1rem;
+    margin: 10px 0 20px;
+    color: rgb(49, 51, 49);
+  }
+
+  .submitted-data {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .submitted-data p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+
+  .submitted-data strong {
+    color: #333;
+  }
+
+  .submit-btn {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+
+  .submit-btn:hover {
+    background: #45a049;
   }
   
   
