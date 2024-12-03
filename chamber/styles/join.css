@@ -138,7 +138,7 @@ button:hover {
 }
 
 .close-modal {
-  background: #e64545; /* Darker red for better contrast */
+  background: #a35b5b; /* Darker red for better contrast */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -147,7 +147,7 @@ button:hover {
 }
 
 .close-modal:hover {
-  background: #c83737;
+  background: #9e5b5b;
 }
 
 /* Thank You Section */
