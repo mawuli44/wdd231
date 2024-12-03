@@ -109,11 +109,11 @@ input, select, textarea {
 
 .card:hover {
   transform: scale(1.05);
-  border-color: #467a46; /* Match hover color with the theme */
+  border-color: #4d964d; /* Match hover color with the theme */
 }
 
 button {
-  background: #4c8c4c;
+  background: #499249;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -123,7 +123,7 @@ button {
 }
 
 button:hover {
-  background: #3c6e3c;
+  background: #519251;
 }
 
 /* Modals */
@@ -138,7 +138,7 @@ button:hover {
 }
 
 .close-modal {
-  background: #a35b5b; /* Darker red for better contrast */
+  background: #b65f5f; /* Darker red for better contrast */
   color: white;
   padding: 10px 15px;
   border: none;
@@ -147,7 +147,7 @@ button:hover {
 }
 
 .close-modal:hover {
-  background: #9e5b5b;
+  background: #b35f5f;
 }
 
 /* Thank You Section */
@@ -162,7 +162,7 @@ button:hover {
 }
 
 .thank-you-section h2 {
-  color: #2f4f2f; /* Dark green for better contrast */
+  color: #4f8f4f; /* Dark green for better contrast */
   font-size: 2rem;
   margin-bottom: 15px;
 }
@@ -170,7 +170,7 @@ button:hover {
 .thank-you-section p {
   font-size: 1.1rem;
   margin: 10px 0 20px;
-  color: #444; /* Dark text for readability */
+  color: #634545; /* Dark text for readability */
 }
 
 .submitted-data {
