@@ -1,0 +1,52 @@
+/* Color Schema */
+:root {
+    --primary-color: #007BFF; /* Blue - Used for headings and accents */
+    --secondary-color: #F4F4F4; /* Light Gray - Used for background */
+    --text-color: #333333; /* Dark Gray - Used for paragraphs */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+section {
+    margin: 20px 0;
+}
+
+
+.wireframe {
+    border: 2px dashed var(--primary-color);
+    padding: 10px;
+    margin-top: 10px;
+    ;
+}
+
+.wireframe img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--text-color);
+}
