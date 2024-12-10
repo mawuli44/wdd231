@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Job Listings</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/remote.css">
+  <link rel="stylesheet" href="styles/dark-mode.css">
+  <script src="scripts/fetchjobs.js" defer></script>
+  <script src="scripts/darkModeToggle.js" defer></script>
+  <script src="scripts/job-details.js" defer></script>
+  <script src="scripts/profile.js" defer></script>
+  <script src="scripts/remote.js" defer></script>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section class="job-filters">
+      <input type="text" id="search" placeholder="Search jobs..." />
+      <select id="category-filter">
+        <option value="">Category</option>
+        <option value="development">Development</option>
+        <option value="design">Design</option>
+      </select>
+    </section>
+    <section class="job-listings">
+      <h3>Available Jobs</h3>
+      <div id="jobs-list"></div>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>

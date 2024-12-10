@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post a Job - Remote Job Connect</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/remote.css">
+  <link rel="stylesheet" href="styles/dark-mode.css">
+  <script src="scripts/fetchjobs.js" defer></script>
+  <script src="scripts/darkModeToggle.js" defer></script>
+  <script src="scripts/job-details.js" defer></script>
+  <script src="scripts/profile.js" defer></script>
+  <script src="scripts/remote.js" defer></script>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section>
+      <h2>Post a Job</h2>
+      <form id="post-job-form">
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" required>
+        
+        <label for="company-name">Company Name:</label>
+        <input type="text" id="company-name" required>
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" required>
+        
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" required>
+        
+        <label for="job-description">Description:</label>
+        <textarea id="job-description" required></textarea>
+        
+        <button type="submit">Post Job</button>
+      </form>
+    </section>
+  </main>
+  <footer></footer>
+  <script>
+    document.getElementById('post-job-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Job posted successfully!');
+    });
+  </script>
+</body>
+</html>

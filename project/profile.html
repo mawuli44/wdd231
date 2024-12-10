@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile - Remote Job Connect</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/remote.css">
+  <link rel="stylesheet" href="styles/dark-mode.css">
+  <script src="scripts/fetchjobs.js" defer></script>
+  <script src="scripts/darkModeToggle.js" defer></script>
+  <script src="scripts/job-details.js" defer></script>
+  <script src="scripts/profile.js" defer></script>
+  <script src="scripts/remote.js" defer></script>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section>
+      <h2>Your Profile</h2>
+      <div>
+        <h3>Saved Jobs</h3>
+        <ul id="saved-jobs-list"></ul>
+      </div>
+      <div>
+        <h3>Application History</h3>
+        <ul id="application-history"></ul>
+      </div>
+      <div>
+        <h3>Notification Settings</h3>
+        <label>
+          <input type="checkbox" id="email-notifications">
+          Receive notifications for new job postings
+        </label>
+      </div>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="scripts/profile.js" defer></script>
+</body>
+</html>
