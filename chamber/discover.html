@@ -3,57 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Discover</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+  <meta name="description" content="Discover the vibrant community served by our Chamber of Commerce. Explore demographics, attractions, and more.">
+  <meta name="keywords" content="Chamber of Commerce, Community, Demographics, Local Business">
+  <title>Discover Page - Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/discover.css">
+  <script src="scripts/discover.js" defer ></script>
 </head>
 <body>
-  <!-- Header -->
   <header>
     <h1>Chamber of Commerce</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="discover.html">Discover</a>
+      <ul>
+        <li><a href="index.html" aria-label="Go to Home Page">Home</a></li>
+        <li><a href="discover.html" aria-label="Go to Discover Page" class="active">Discover</a></li>
+        <li><a href="directory.html" aria-label="Go to Contact Page">Directory</a></li>
+        <li><a href="join.html" aria-label="Go to Contact Page">Join Us</a></li>
+      </ul>
     </nav>
   </header>
-
-  <!-- Main Layout -->
   <main class="discover-container">
-    <!-- Sidebar -->
     <aside class="sidebar">
-      <section>
-        <h2>Welcome Message</h2>
-        <p id="welcome-message"></p>
-      </section>
-      <section>
-        <h2>Area Demographics</h2>
-        <ul>
-          <li>Population: 100,000</li>
-          <li>Median Income: $50,000</li>
-          <li>Top Industries: Tourism, Tech, Agriculture</li>
-        </ul>
+      <div id="visitor-message" class="visitor-message"></div>
+      <section class="demographics">
+        <h2>Demographics</h2>
+        <p><strong>Population:</strong> 30,000,000</p>
+        <p><strong>Median Age:</strong> 35</p>
+        <p><strong>Average Household Income:</strong> Ghs4,000</p>
       </section>
     </aside>
-
-    <!-- Main Content -->
-    <section class="main-content">
-      <h2>Gallery</h2>
-      <div class="image-gallery">
-        <img src="images/photo1.jpg" alt="Beautiful Landscape" loading="lazy">
-        <img src="images/photo2.jpg" alt="City View" loading="lazy">
-        <img src="images/photo3.jpg" alt="Local Park" loading="lazy">
-        <img src="images/photo4.jpg" alt="Historical Site" loading="lazy">
-        <img src="images/photo5.jpg" alt="Cultural Festival" loading="lazy">
-        <img src="images/photo6.jpg" alt="Community Center" loading="lazy">
+  <section class="main-content">
+      <h2>Explore the Area</h2>
+      <div class="gallery">
+        <img src="images/kwame.png" data-src="images/kwame.png" alt="Beautiful park view" class="lazy" loading="lazy">
+        <img src="images/placeholder.png" data-src="images/placeholder.png" alt="Modern nature park" class="lazy" loading="lazy">
+        <img src="images/event.png" data-src="images/event.png" alt="Local community event" class="lazy" loading="lazy">
+        <img src="images/landmark.png" data-src="images/landmark.png" alt="Historical landmark" class="lazy" loading="lazy">
+        <img src="images/countryside.png" data-src="images/countryside.png" alt="Picturesque countryside" class="lazy" loading="lazy">
+        <img src="images/shopping.png" data-src="images/shopping.png" alt="Downtown shopping district" class="lazy" loading="lazy">
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2023 Chamber of Commerce</p>
+    <p>&copy; 2024 Chamber of Commerce</p>
   </footer>
 </body>
 </html>
