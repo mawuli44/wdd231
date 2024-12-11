@@ -234,4 +234,38 @@ body {
       padding: 1.5em;
     }
   }
+
+  /* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    background: white;
+    height: 3px;
+    margin: 4px;
+    width: 25px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-menu.open {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+    .nav-menu {
+      display: none;
+    }
+  }
+  
   

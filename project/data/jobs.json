@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Frontend Developer",
+      "company": "TechCorp",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$80,000 - $100,000"
+    },
+    {
+      "title": "Backend Engineer",
+      "company": "CodeBase Inc.",
+      "location": "Remote",
+      "type": "Part-time",
+      "salary": "$60,000 - $80,000"
+    }
+  ]
+  
