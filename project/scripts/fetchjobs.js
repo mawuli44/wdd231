@@ -96,3 +96,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     renderJobs(allJobs);
   });
   
+
+  document.addEventListener("DOMContentLoaded", async () => {
+  const featuredJobsContainer = document.getElementById("featured-jobs");
+  const jobs = await fetch("data/jobs.json").then(res => res.json());
+
+  const featuredJobs = jobs.slice(0, 3); // Display first 3 jobs as featured
+
+  featuredJobsContainer.innerHTML = featuredJobs
+    .map(
+      job => `
+        <div class="job">
+          <h4>${job.title}</h4>
+          <p>${job.company} - ${job.location}</p>
+          <a href="job-details.html" class="btn">View Job</a>
+        </div>
+      `
+    )
+    .join("");
+});

@@ -1,0 +1,79 @@
+/* General Reset */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* First Header: Logo, Company Name, and Login */
+.top-header {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Optional bottom border */
+}
+
+.left-section {
+    display: flex;
+    align-items: center; /* Align logo and company name vertically */
+}
+
+.logo {
+    width: 40px; /* Adjust logo size */
+    height: 40px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    text-decoration: none;
+    color: #007bff; /* Button text color */
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Second Header: Navigation Links */
+.nav-header {
+    background-color: #333; /* Dark background for navigation */
+    padding: 10px 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; /* Align navigation to the left */
+    gap: 20px; /* Space between navigation items */
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #007bff; /* Highlight link on hover */
+}

@@ -14,4 +14,36 @@
       "salary": "$60,000 - $80,000"
     }
   ]
+
+  [
+    {
+      "title": "Frontend Developer",
+      "company": "Tech Innovators",
+      "location": "Remote",
+      "type": "Full-Time",
+      "salary": "$70,000 - $90,000"
+    },
+    {
+      "title": "Backend Developer",
+      "company": "Code Masters",
+      "location": "Remote",
+      "type": "Part-Time",
+      "salary": "$50,000 - $70,000"
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "DesignPro",
+      "location": "Remote",
+      "type": "Contract",
+      "salary": "$40/hour"
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Data Wizards",
+      "location": "Remote",
+      "type": "Full-Time",
+      "salary": "$100,000 - $120,000"
+    }
+  ]
+  
   

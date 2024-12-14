@@ -9,30 +9,66 @@
   <meta property="og:image" content="images/hero.jpg" />
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/remote.css">
-  <link rel="stylesheet" href="styles/dark-mode.css">
-  <script src="scripts/fetchjobs.js" defer></script>
-  <script src="scripts/darkModeToggle.js" defer></script>
-  <script src="scripts/job-details.js" defer></script>
-  <script src="scripts/profile.js" defer></script>
+  <link rel="stylesheet" href="styles/header.css">
   <script src="scripts/remote.js" defer></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
   <title>Remote Job Connect</title>
 </head>
 <body>
-  <header></header>
+  <header class="top-header">
+    <div class="left-section">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <span class="company-name">Remote Job Connect</span>
+    </div>
+    <div class="right-section">
+      <a href="login.html" class="login-button">Login</a>
+    </div>
+  </header>
+
+  <header class="nav-header">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="remote.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="post-job.html">Post a Job</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <main>
     <section class="hero">
       <h2>Find Your Next Remote Opportunity</h2>
       <a href="jobs.html" class="btn">Browse Jobs</a>
     </section>
+    
     <section class="featured-jobs">
       <h3>Featured Jobs</h3>
-      <div id="featured-jobs"></div>
+      <div id="featured-jobs">
+        <!-- Jobs added dynamically -->
+      </div>
+    </section>
+
+    <section class="blog-section">
+      <h3>Latest Blog Posts</h3>
+      <div class="blog-posts">
+        <div class="blog-post">
+          <h4>5 Tips for Landing Remote Jobs</h4>
+          <p>Remote work is the new normal. Here's how you can excel...</p>
+          <a href="blog.html#tips-for-remote-jobs" class="btn">Read More</a>
+        </div>
+        <div class="blog-post">
+          <h4>The Future of Tech Jobs</h4>
+          <p>Explore the latest trends and opportunities in tech...</p>
+          <a href="blog.html#future-of-tech" class="btn">Read More</a>
+        </div>
+      </div>
     </section>
   </main>
+
   <footer>
     <p>&copy; 2024 Remote Job Connect | <a href="attributions.html">Attributions</a></p>
   </footer>
