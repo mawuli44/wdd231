@@ -3,24 +3,31 @@
 <head>
   <title>Job Listings</title>
   <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/remote.css">
-  <link rel="stylesheet" href="styles/dark-mode.css">
-  <script src="scripts/fetchjobs.js" defer></script>
-  <script src="scripts/darkModeToggle.js" defer></script>
-  <script src="scripts/job-details.js" defer></script>
-  <script src="scripts/profile.js" defer></script>
   <script src="scripts/remote.js" defer></script>
 </head>
 <body>
-  <header></header>
+    <header class="nav-header">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="remote.html">Home</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="post-job.html">Post a Job</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
   <main>
     <section class="job-filters">
       <input type="text" id="search" placeholder="Search jobs..." />
       <select id="category-filter">
         <option value="">Category</option>
-        <option value="development">Development</option>
-        <option value="design">Design</option>
+        <option value="Web development">Development</option>
+        <option value="Web designer">Web designer</option>
+        <option value="Frontend developer">Frontend developer</option>
+        <option value="Web backend developer">Backend developer</option>
       </select>
     </section>
     <section class="job-listings">
@@ -28,6 +35,7 @@
       <div id="jobs-list"></div>
     </section>
   </main>
-  <footer></footer>
+  <footer><p>&copy; 2024 Remote Job Connect</p>
+  </footer>
 </body>
 </html>

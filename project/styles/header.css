@@ -2,7 +2,7 @@
 body, ul {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 /* First Header: Logo, Company Name, and Login */
@@ -29,7 +29,7 @@ body, ul {
 .company-name {
     font-size: 18px;
     font-weight: bold;
-    color: #333; /* Dark text color */
+    color: #df3c3c; /* Dark text color */
 }
 
 .right-section {
@@ -54,14 +54,14 @@ body, ul {
 
 /* Second Header: Navigation Links */
 .nav-header {
-    background-color: #333; /* Dark background for navigation */
+    background-color: #007bff ; /* Dark background for navigation */
     padding: 10px 20px;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    justify-content: flex-start; /* Align navigation to the left */
+    justify-content: flex-end; /* Align navigation to the left */
     gap: 20px; /* Space between navigation items */
     margin: 0;
 }

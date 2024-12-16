@@ -54,11 +54,12 @@ body {
     max-width: 1200px;
     margin: 2em auto;
     padding: 0 1em;
+    display: flexbox;
   }
   
   /* Hero Section */
   .hero {
-    background: url('../images/hero.jpg') no-repeat center center/cover;
+    background: url('../images/remote.png') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 5em 1em;
@@ -67,8 +68,17 @@ body {
   
   .hero h2 {
     font-size: 2.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5em ;
   }
+
+  .hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
   
   .hero .btn {
     display: inline-block;
@@ -185,35 +195,12 @@ body {
   
   /* Footer */
   footer {
-    background: #f4f4f4;
+    background: #b8b3b3;
     text-align: center;
     padding: 1em;
     margin-top: 2em;
   }
   
-  /* Dark Mode Styles */
-  body.dark-mode {
-    background-color: #121212;
-    color: #e1e1e1;
-  }
-  
-  body.dark-mode header {
-    background: #1e1e1e;
-  }
-  
-  body.dark-mode footer {
-    background: #1e1e1e;
-  }
-  
-  body.dark-mode .job, body.dark-mode form {
-    background: #1e1e1e;
-    border-color: #333;
-  }
-  
-  body.dark-mode .btn {
-    background: #444;
-    color: #e1e1e1;
-  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -302,3 +289,195 @@ body {
     background-color: #0056b3;
   }
   
+
+  /* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #007BFF;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Header */
+header {
+  background: #007BFF;
+  color: white;
+}
+
+header .nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+header .nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5em 1em;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.hero .btn {
+  padding: 0.5em 1.5em;
+  background: white;
+  color: #007BFF;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: #f1f1f1;
+}
+
+/* Featured Jobs Section */
+.featured-jobs {
+  margin: 2em 0;
+}
+
+#featured-jobs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1em;
+}
+
+/* Blog Section */
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.blog-post {
+  background: white;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1 1 calc(50% - 1em);
+}
+
+.blog-post h4 {
+  margin: 0 0 0.5em;
+}
+
+.blog-post .btn {
+  margin-top: 1em;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
+.blog-post .btn:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #b8b3b3;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header .nav-list {
+    display: none;
+  }
+
+  header .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hero h2 {
+    font-size: 1.8em;
+  }
+
+  .hero-images {
+    flex-direction: column;
+  }
+
+  .blog-post {
+    flex: 1 1 100%;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align content */
+  text-align: center; /* Center text alignment */
+  padding: 20px;
+}
+
+.hero-images {
+  display: flex; /* Arrange images in a row */
+  justify-content: center; /* Center images horizontally */
+  gap: 8px; /* Space between images */
+  flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+}
+
+.hero-images img {
+  max-width: 280px; /* Control the size of images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.hero h2 {
+  margin-top: 20px; /* Add space between images and the heading */
+  font-size: 2rem; /* Adjust font size as needed */
+  color: #333;
+}
+
+.hero .btn {
+  margin-top: 15px; /* Space between the button and the heading */
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.hero .btn:hover {
+  background: #0056b3;
+}
+
