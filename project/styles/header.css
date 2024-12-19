@@ -88,6 +88,7 @@ body, ul {
     display: flex;
     align-items: center; /* Center navigation items vertically */
     padding: 0 20px;
+    overflow: hidden;
   }
   
   .nav-header nav .nav-list {
