@@ -288,3 +288,32 @@ section h3 {
   border-radius: 5px; /* Add rounded corners (optional) */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow (optional) */
 }
+
+/* Image Header as Background */
+.image-header {
+  position: relative; /* Allow for absolute positioning of inner elements */
+  width: 100%;
+  height: 370px; /* Set the height of the header */
+  overflow: hidden; /* Ensure content stays within the header bounds */
+}
+
+.image-header .header-background {
+  width: 100%;
+  height: 100%;
+  background-image: url('images/remote 4.png'); /* Path to the background image */
+  background-size: cover; /* Scale the image to cover the entire container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent tiling */
+}
+
+/* Optional Overlay for Better Contrast */
+.image-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better readability */
+  z-index: 1;
+}
