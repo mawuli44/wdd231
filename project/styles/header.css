@@ -55,15 +55,16 @@ body, ul {
 /* Second Header: Navigation Links */
 .nav-header {
     background-color: #007bff ; 
-    padding: 10px 20px;
+    padding: 5px 10px;
     justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
 
 .nav-list {
     list-style: none;
     display: flex;
-    justify-content: flex-end; 
-    gap: 20px; 
+    gap: 10px; 
     margin: 0;
 }
 
@@ -71,7 +72,7 @@ body, ul {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
     transition: color 0.3s ease;
 }
 
@@ -98,6 +99,7 @@ body, ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin: auto;
   }
   
   .nav-header nav .nav-list a {
