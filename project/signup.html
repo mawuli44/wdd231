@@ -3,32 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Find and post remote job opportunities.">
+  <meta name="author" content="Mawuli Ayikpa.">
+  <meta property="og:title" content="Remote Job Connect - Home" />
+  <meta property="og:title" content="WDD 231 - Final Project Work" />
+  <meta property="og:description" content="Find and post remote job opportunities with Remote Job Connect." />
+  <meta property="og:image" content="images/hero.jpg" />
   <title>Sign Up</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/remote.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="icon" href="images/favicon.ico">
+
 </head>
 <body>
-  <header class="nav-header">
-    <nav>
-      <ul class="nav-list">
-        <li><a href="remote.html">Home</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-        <li><a href="signup.html" class="active">Sign Up</a></li>
-        <li><a href="about.html">About Us</a></li>
-      </ul>
-    </nav>
-  </header>
   <main>
     <section class="form-section">
       <h1>Create an Account</h1>
       <form action="/submit-signup" method="POST">
-        <label for="username">Username</label>
+        <label for="username">Username*</label>
         <input type="text" id="username" name="username" required>
         
-        <label for="email">Email</label>
+        <label for="email">Email*</label>
         <input type="email" id="email" name="email" required>
         
-        <label for="password">Password</label>
+        <label for="password">Password*</label>
         <input type="password" id="password" name="password" required>
         
         <button type="submit" class="btn">Sign Up</button>

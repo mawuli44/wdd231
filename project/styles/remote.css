@@ -75,9 +75,9 @@ main {
   text-align: center;
   padding: 20px;
   color: white;
-  background: url('images/hero.jpg') no-repeat center center / cover;
+  background: url('images/remote.png') no-repeat center center / cover;
   border-radius: 8px;
-  height: 400px;
+  height: 300px;
 }
 
 .hero h2 {
