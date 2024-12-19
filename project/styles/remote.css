@@ -1,302 +1,11 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-  }
-  
-  h1, h2, h3 {
-    color: #007BFF;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  
-  a {
-    text-decoration: none;
-    color: #007BFF;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Header */
-  header {
-    background: #007BFF;
-    color: #fff;
-  }
-  
-  header nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 1.5em;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  header nav ul li a.active {
-    text-decoration: underline;
-  }
-  
-  /* Main Content */
-  main {
-    max-width: 1200px;
-    margin: 2em auto;
-    padding: 0 1em;
-    display: flexbox;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background: url('../images/remote.png') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 5em 1em;
-    border-radius: 8px;
-  }
-  
-  .hero h2 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em ;
-  }
-
-  .hero-images {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  flex-wrap: wrap;
-  margin-bottom: 1em;
-}
-
-  
-  .hero .btn {
-    display: inline-block;
-    padding: 0.5em 1.5em;
-    background: white;
-    color: #007BFF;
-    border-radius: 5px;
-    font-size: 1em;
-  }
-  
-  .hero .btn:hover {
-    background: #f1f1f1;
-  }
-  
-  /* Job Listings */
-  .job-listings, .featured-jobs {
-    margin: 2em 0;
-  }
-  
-  .job {
-    background: white;
-    border: 1px solid #ddd;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .job h4 {
-    margin: 0 0 0.5em;
-  }
-  
-  .job p {
-    margin: 0.2em 0;
-  }
-  
-  .job .btn {
-    margin-top: 1em;
-    display: inline-block;
-    padding: 0.5em 1.5em;
-    background: #007BFF;
-    color: white;
-    border-radius: 5px;
-  }
-  
-  .job .btn:hover {
-    background: #0056b3;
-  }
-  
-  /* Profile Page */
-  .profile-container {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 1em;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .profile-container h2 {
-    text-align: center;
-  }
-  
-  .profile-container h3 {
-    margin-top: 1em;
-  }
-  
-  .profile-container ul {
-    margin-top: 1em;
-    padding-left: 1em;
-  }
-  
-  .profile-container ul li {
-    margin-bottom: 0.5em;
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  /* Post Job Page */
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 2em;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  form label {
-    display: block;
-    margin-top: 1em;
-  }
-  
-  form input, form textarea, form select {
-    width: 100%;
-    padding: 0.5em;
-    margin-top: 0.5em;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  form button {
-    margin-top: 1em;
-    padding: 0.5em 1.5em;
-    background: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  form button:hover {
-    background: #0056b3;
-  }
-  
-  /* Footer */
-  footer {
-    background: #b8b3b3;
-    text-align: center;
-    padding: 1em;
-    margin-top: 2em;
-  }
-  
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    header nav ul {
-      flex-direction: column;
-      gap: 1em;
-    }
-  
-    .hero {
-      padding: 3em 1em;
-    }
-  
-    .job {
-      margin-bottom: 1.5em;
-    }
-  
-    form {
-      padding: 1.5em;
-    }
-  }
-
-  /* Hamburger Menu */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-  }
-  
-  .hamburger span {
-    background: white;
-    height: 3px;
-    margin: 4px;
-    width: 25px;
-  }
-  
-  .nav-menu {
-    display: flex;
-    list-style: none;
-  }
-  
-  .nav-menu.open {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  @media (max-width: 768px) {
-    .hamburger {
-      display: flex;
-    }
-    .nav-menu {
-      display: none;
-    }
-  }
-  
-  .hero {
-    background-image: url('images/hero.jpg'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents tiling of the image */
-    width: 100%; /* Full width */
-    height: 400px; /* Adjust height as needed */
-    display: flex; /* Flexbox for centering content */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    text-align: center; /* Centers text alignment */
-    color: white; /* White text for better contrast */
-    padding: 20px; /* Adds some padding */
-  }
-  
-  .hero h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  .hero .btn {
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .hero .btn:hover {
-    background-color: #0056b3;
-  }
-  
-
-  /* General Styles */
-body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
   color: #333;
+  line-height: 1.6;
 }
 
 h1, h2, h3 {
@@ -318,56 +27,91 @@ img {
   display: block;
 }
 
-/* Header */
-header {
-  background: #007BFF;
-  color: white;
+
+
+header .hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-header .nav-list {
-  display: flex;
-  justify-content: center;
-  gap: 1.5em;
+header .hamburger span {
+  background: white;
+  height: 3px;
+  margin: 4px;
+  width: 25px;
 }
 
-header .nav-list a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+@media (max-width: 768px) {
+  header .nav-list {
+    display: none;
+  }
+
+  header .hamburger {
+    display: flex;
+  }
+
+  .nav-menu.open {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Main Content Styles */
+main {
+  max-width: 1200px;
+  margin: 2em auto;
+  padding: 0 1em;
 }
 
 /* Hero Section */
 .hero {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
   text-align: center;
-  padding: 5em 1em;
+  padding: 20px;
+  color: white;
+  background: url('images/hero.jpg') no-repeat center center / cover;
+  border-radius: 8px;
+  height: 400px;
+}
+
+.hero h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.hero .btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #0056b3;
 }
 
 .hero-images {
   display: flex;
   justify-content: center;
-  gap: 1em;
+  gap: 8px;
   flex-wrap: wrap;
   margin-bottom: 1em;
 }
 
-.hero h2 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-}
-
-.hero .btn {
-  padding: 0.5em 1.5em;
-  background: white;
-  color: #007BFF;
-  border-radius: 5px;
-}
-
-.hero .btn:hover {
-  background: #f1f1f1;
+.hero-images img {
+  max-width: 280px;
 }
 
 /* Featured Jobs Section */
-.featured-jobs {
+.featured-jobs,
+.job-listings {
   margin: 2em 0;
 }
 
@@ -375,6 +119,38 @@ header .nav-list a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1em;
+}
+
+/* Job Listings */
+.job {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.job p {
+  margin: 0.2em 0;
+  color: #555;
+}
+
+.job .btn {
+  margin-top: 1em;
+  padding: 0.5em 1.5em;
+  background: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
+.job .btn:hover {
+  background: #0056b3;
 }
 
 /* Blog Section */
@@ -393,7 +169,7 @@ header .nav-list a {
 }
 
 .blog-post h4 {
-  margin: 0 0 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .blog-post .btn {
@@ -409,75 +185,84 @@ header .nav-list a {
   background: #0056b3;
 }
 
-/* Footer */
-footer {
-  background: #b8b3b3;
-  text-align: center;
-  padding: 1em;
-}
-
-/* Responsive Styles */
 @media (max-width: 768px) {
-  header .nav-list {
-    display: none;
-  }
-
-  header .hamburger {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-  }
-
-  .hero h2 {
-    font-size: 1.8em;
-  }
-
-  .hero-images {
-    flex-direction: column;
-  }
-
   .blog-post {
     flex: 1 1 100%;
   }
 }
 
-.hero {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center align content */
-  text-align: center; /* Center text alignment */
-  padding: 20px;
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.hero-images {
-  display: flex; /* Arrange images in a row */
-  justify-content: center; /* Center images horizontally */
-  gap: 8px; /* Space between images */
-  flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+form label {
+  display: block;
+  margin-top: 1em;
 }
 
-.hero-images img {
-  max-width: 280px; /* Control the size of images */
-  height: auto; /* Maintain aspect ratio */
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
-.hero h2 {
-  margin-top: 20px; /* Add space between images and the heading */
-  font-size: 2rem; /* Adjust font size as needed */
-  color: #333;
-}
-
-.hero .btn {
-  margin-top: 15px; /* Space between the button and the heading */
-  padding: 10px 20px;
+form button {
+  margin-top: 1em;
+  padding: 0.5em 1.5em;
   background: #007BFF;
   color: white;
-  text-decoration: none;
+  border: none;
   border-radius: 5px;
-  font-size: 1rem;
 }
 
-.hero .btn:hover {
+form button:hover {
   background: #0056b3;
+}
+
+/* Profile Page */
+.profile-container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+  text-align: center;
+}
+
+.profile-container h3 {
+  margin-top: 1em;
+}
+
+.profile-container ul {
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+.profile-container ul li {
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  background: #b8b3b3;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
 }
 

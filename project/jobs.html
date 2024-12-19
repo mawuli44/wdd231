@@ -4,38 +4,35 @@
   <title>Job Listings</title>
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/remote.css">
+  <link rel="stylesheet" href="styles/header.css">
   <script src="scripts/remote.js" defer></script>
 </head>
 <body>
+  <body>
     <header class="nav-header">
-      <nav>
-        <ul class="nav-list">
-          <li><a href="remote.html">Home</a></li>
-          <li><a href="jobs.html">Jobs</a></li>
-          <li><a href="post-job.html">Post a Job</a></li>
-          <li><a href="profile.html">Profile</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="remote.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="post-job.html">Post a Job</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
     </header>
-  <main>
-    <section class="job-filters">
-      <input type="text" id="search" placeholder="Search jobs..." />
-      <select id="category-filter">
-        <option value="">Category</option>
-        <option value="Web development">Development</option>
-        <option value="Web designer">Web designer</option>
-        <option value="Frontend developer">Frontend developer</option>
-        <option value="Web backend developer">Backend developer</option>
-      </select>
-    </section>
-    <section class="job-listings">
-      <h3>Available Jobs</h3>
-      <div id="jobs-list"></div>
-    </section>
-  </main>
-  <footer><p>&copy; 2024 Remote Job Connect</p>
-  </footer>
+    <main>
+        <section class="job-filters">
+            <input type="text" id="search" placeholder="Search jobs..." />
+            <button id="filter-btn" class="btn">Search</button>
+        </section>
+        <section class="job-listings">
+            <h3>Available Jobs</h3>
+            <div id="jobs-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Remote Job Connect</p>
+    </footer>
 </body>
 </html>
