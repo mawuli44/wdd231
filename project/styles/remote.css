@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #e2d8d8;
   color: #333;
   line-height: 1.6;
 }
@@ -266,3 +266,22 @@ footer {
   margin-top: 2em;
 }
 
+section h3 {
+  text-align: center;
+}
+
+.partners-images {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-around; /* Distribute images evenly with space in between */
+  align-items: center; /* Align images vertically */
+  flex-wrap: wrap; /* Allow wrapping to the next row if necessary on smaller screens */
+  gap: 1rem; /* Add spacing between images */
+  margin: 2em 0; /* Add some spacing above and below the section */
+}
+
+.partners-images img {
+  max-width: 150px; /* Control the size of the images */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 5px; /* Add rounded corners (optional) */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow (optional) */
+}

@@ -134,3 +134,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const jobs = await fetchJobs();
   renderJobs(jobs);
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.querySelector(".hamburger");
+  const navList = document.querySelector(".nav-list");
+
+  hamburger.addEventListener("click", () => {
+    navList.classList.toggle("open"); // Toggle visibility of the menu
+    hamburger.classList.toggle("active"); // Optional: Add styling for active hamburger
+  });
+});

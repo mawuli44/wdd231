@@ -29,7 +29,7 @@ body, ul {
 .company-name {
     font-size: 18px;
     font-weight: bold;
-    color: #df3c3c; /* Dark text color */
+    color: rgb(82, 196, 82)
 }
 
 .right-section {
@@ -171,6 +171,47 @@ header {
   
   .nav-header .nav-list a:hover {
     text-decoration: underline;
+  }
+  
+  .signup-button {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    margin-left: 10px; /* Add spacing between Login and Sign Up */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #007BFF;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .right-section {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .login-button,
+    .signup-button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
   }
   
   
